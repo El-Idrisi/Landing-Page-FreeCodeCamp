@@ -19,7 +19,7 @@
                 <div class="px-4 w-full">
                     <a href="#"
                         class="font-bold text-2xl text-teal-400 py-6 relative font-courgette flex items-center group">
-                        <img id="img-header" src="dist/img/Asset 2.png" alt="logo" class="w-16 opacity-80 transition duration-300 drop-shadow-lg group-hover:opacity-100">
+                        <img id="header-img" src="dist/img/Asset 2.png" alt="logo" class="w-16 opacity-80 transition duration-300 drop-shadow-lg group-hover:opacity-100">
                         <h2 class="pl-2 transition duration-300 group-hover:text-teal-500">Ice Cream Wuenak</h2>
                     </a>
                 </div>
@@ -230,17 +230,17 @@
             <div class="w-full p-4 relative md:w-2/3 md:-translate-x-1/2 md:left-1/2">
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <div class="mb-8 w-full px-4">
-                        <label for="nama" class="text-lg font-bold text-teal-500">Nama</label>
-                        <input id="nama" type="text"
-                            class="w-full rounded-md bg-slate-200 p-3 text-gray-800 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500" placeholder="Masukan Nama Anda">
+                        <label for="nama" class="text-xl text-teal-500 font-bold">Nama</label>
+                        <input id="nama" type="text" name="nama" required
+                            class="w-full rounded-md bg-slate-200 p-3 text-gray-800 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500" placeholder="Masukan Email Anda">
                     </div>
                     <div class="mb-8 w-full px-4">
-                        <label for="email" class="text-lg font-bold text-teal-500">Email</label>
-                        <input id="email" type="email"
+                        <label for="email" class="text-xl text-teal-500 font-bold">Email</label>
+                        <input id="email" type="email" name="email" required
                             class="w-full rounded-md bg-slate-200 p-3 text-gray-800 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500" placeholder="Masukan Email Anda">
                     </div>
                     <div class="w-full px-4">
-                        <input id="submit" type="submit" class="w-full text-gray-100 bg-teal-500 py-2 rounded-full text-base font-bold tracking-wider">
+                        <input id="submit" type="submit" value="Get Started" class="w-full text-gray-100 bg-teal-500 py-2 rounded-full text-base font-bold tracking-wider">
                     </div>
                 </form>
             </div>
@@ -291,6 +291,8 @@
     <!-- Footer -->
 
     <script src="dist/script.js"></script>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </body>
 
